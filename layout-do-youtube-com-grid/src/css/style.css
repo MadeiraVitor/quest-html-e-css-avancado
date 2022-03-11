@@ -1,0 +1,83 @@
+.container{
+    display: grid;
+    width: 630px;
+    grid-template-areas: "principal propaganda"
+                         "principal video1"
+                         "principal video2"
+                         "principal video3";
+}
+
+.principal{
+    grid-area: principal;
+    width: 326px;
+}
+
+.principal h2{
+    font-size: 14px;
+}
+
+.principal p{
+    font-size: 11px;
+}
+
+.propaganda{
+    grid-area: propaganda;
+    width: 270px;
+}
+
+.video1{
+    grid-area: video1;
+    display: flex;
+    align-items: center;
+}
+
+.video1 .descricao{
+    line-height: 9px;
+    margin-left: 4px;
+}
+
+.video1 h2{
+    font-size: 14px;
+}
+
+.video1 p{
+    font-size: 11px;
+}
+
+.video2{
+    grid-area: video2;
+    display: flex;
+    align-items: center;
+}
+
+.video2 .descricao{
+    line-height: 9px;
+    margin-left: 4px;
+}
+
+.video2 h2{
+    font-size: 14px;
+}
+
+.video2 p{
+    font-size: 11px;
+}
+
+.video3{
+    grid-area: video3;
+    display: flex;
+    align-items: center;
+}
+
+.video3 .descricao{
+    line-height: 9px;
+    margin-left: 4px;
+}
+
+.video3 h2{
+    font-size: 14px;
+}
+
+.video3 p{
+    font-size: 11px;
+}
