@@ -1,6 +1,7 @@
 .container{
     display: grid;
     width: 630px;
+    font-family: 'Roboto', sans-serif;
     grid-template-areas: "principal propaganda"
                          "principal video1"
                          "principal video2"
@@ -14,10 +15,12 @@
 
 .principal h2{
     font-size: 14px;
+    font-weight: 700;
 }
 
 .principal p{
     font-size: 11px;
+    font-weight: 300;
 }
 
 .propaganda{
@@ -38,10 +41,12 @@
 
 .video1 h2{
     font-size: 14px;
+    font-weight: 700;
 }
 
 .video1 p{
     font-size: 11px;
+    font-weight: 300;
 }
 
 .video2{
@@ -57,10 +62,12 @@
 
 .video2 h2{
     font-size: 14px;
+    font-weight: 700;
 }
 
 .video2 p{
     font-size: 11px;
+    font-weight: 300;
 }
 
 .video3{
@@ -76,8 +83,10 @@
 
 .video3 h2{
     font-size: 14px;
+    font-weight: 700;
 }
 
 .video3 p{
     font-size: 11px;
+    font-weight: 300;
 }
